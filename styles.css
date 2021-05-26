@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('assets/fonts/Ubuntu-B.ttf');
+}
+
+@font-face {
+    font-family: 'Pervitina';
+    src: url("assets/fonts/Pervitina-Dex-FFP.ttf");
+}
+
+body{
+    background-image: url("assets/img/background.jpg");
+}
+
+h2{
+    font-family: 'Ubuntu';
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+nav{
+    background-color: rgb(43, 37, 37);
+    border: black solid 1px;
+}
+
+#redes{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+#redes>*{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Pervitina';
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+@media (max-width:768px){
+    p{
+        padding: 2%;
+    }
+    #imagen1{
+        width: 100%;
+    }
+    main{
+        margin-top: 220px;
+    }
+    .img_g{
+        max-width: 100%;
+    }
+    .trabajos{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gif{
+        max-width: 100%;
+    }
+    footer div{
+        max-width: 50%;
+        min-width: 50%;
+    }
+}
+
+p{
+    text-align: justify;
+    margin-left: 2px;
+    font-family: 'Ubuntu';
+}
+
+article{
+    border: red solid 0.2em ;
+    margin-bottom: 2%;
+    background-image: url("assets/img/background1.jpg");
+    padding-bottom: 2%;
+}
+
+
+#imagen1{
+    float: right;
+    margin: 1%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.menu li{ 
+    text-align: center;
+    list-style: none;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.menu li a:hover{
+    background-color: rgb(129, 116, 116);
+}
+
+h2{
+    text-align: center;
+}
+
+.trabajos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.gif{
+    height: 220px;
+    display:block;
+    margin:auto;
+}
+
+.discos1{
+    display:inline-block;
+    width: 100%;
+}
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img_g{
+    height: 200px;
+    margin: 1%;
+}
+
+label{
+    font-family: 'Ubuntu';
+}
+
+input{
+    width: 49%;
+}
+
+select{
+    width: 10%;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ul{
+    margin: 10px;
+}
+
+.ul li i{
+    margin-left: 5px;
+}
+
+.ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+}
+
+table *{
+    border: 1px solid black;
+    font-family: 'Ubuntu';
+}
+
+#datos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
